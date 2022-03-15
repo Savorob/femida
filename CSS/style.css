@@ -630,7 +630,7 @@ a, a:active, a:visited a:active {
   }
 }
 .about-description__text {
-  text-align: justify;
+  text-align: center;
   -moz-text-align-last: center;
        text-align-last: center;
   padding: 30px 0px 0px 10px;
