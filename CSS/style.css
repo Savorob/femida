@@ -156,7 +156,7 @@ a, a:active, a:visited a:active {
 }
 @media (max-width: 576px) {
   .menu__side {
-    width: 70%;
+    width: 72%;
   }
 }
 .menu__side-list {

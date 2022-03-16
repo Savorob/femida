@@ -126,7 +126,7 @@ a, a:active, a:visited a:active{
     width: 50%;
   }
   @include mobile {
-    width: 70%;
+    width: 72%;
   }
   &-list {
     @include flex-column-center;
