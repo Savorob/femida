@@ -12,9 +12,15 @@
     $mail->isHTML(true);
 
     //От кого
-    $mail->setFrom('www@www.ru');
+    $mail->Host       = 'smtp.beget.com'; // SMTP сервера вашей почты
+    $mail->Username   = '***@savorob.ru'; // Логин на почте
+    $mail->Password   = '***'; // Пароль на почте
+    $mail->SMTPSecure = 'ssl';
+    $mail->Port       = 465;
+    $mail->setFrom('femida@savorob.ru', 'ЮК Фемида'); // Адрес самой почты и имя отправителя
     //Кому
-    $mail->addAddress('aaa@aaa.ru');
+    $mail->addAddress('***@ya.ru');
+    $mail->addAddress('***@ya.ru');
     //Тема письма
     $mail->Subject = 'Обратная связь ЮК ФЕМИДА';
     
